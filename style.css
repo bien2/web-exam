@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(213, 219, 224) !important;
+}
+.minWidth{
+    min-width: 80%;
+}
+
+nav{
+    background-color: rgb(22, 22, 22);
+    padding: 10px 10px 25px 10px;
+    
+}
+ul li{
+    list-style-type: none;
+    float: left;
+    padding-right: 3rem;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s;
+}
+
+ul li{
+    float: left;
+}
+ul li:hover {
+    color: rgb(13, 165, 13);
+}
+ul .logout li:hover{
+    color: rgb(239, 23, 23);
+}
+ul .login li:hover{
+    color: rgb(13, 165, 13);
+}
+ul button{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    color: #0000EE;
+    padding: 0;
+    text-decoration: underline;
+    font-family: inherit;
+    font-size: inherit;
+    width: 1%;
+}
+/* Add a product */
+input{
+    width: 100%;
+    border-radius: 5px;
+    background: rgb(249, 250, 250);
+    border: 1px solid rgb(181, 189, 196);
+    font-size: 16px;
+    height: 50px;
+    line-height: 24px;
+    padding: 10px;
+    color: rgb(8, 9, 10);
+    outline: none;
+    margin-top: 1rem !important;  
+}
+input:focus{
+    background-color: #ffffff;
+   outline: #3b49df 1px solid;
+    box-shadow: 1px 1px 0 #3b49df;
+}
+table{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
